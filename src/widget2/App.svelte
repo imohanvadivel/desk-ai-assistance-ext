@@ -1,18 +1,14 @@
 <script lang="ts">
     import { onMount, setContext } from "svelte";
     import { Button } from "deskblocks";
-    import { initApp } from "../lib/util";
-
-    let App;
-    setContext("App", App);
+    import { APP, initApp } from "../lib/util";
 
     onMount(async () => {
-        App = await initApp();
+        await initApp();
+        console.log($APP);
     });
 </script>
 
 <main>
-    <h1>UserPreference</h1>
-    <Button>Save</Button>
-    <Button variant="secondary">Cancel</Button>
+    <Button>New Project</Button>
 </main>
