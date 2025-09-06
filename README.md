@@ -1,6 +1,6 @@
-# Desk AI Assistance Extension
+# Desk AI Assistant Extension
 
-This is a assistance extension for Zoho Desk that leverages your browser's local machine learning model. It currently works on Chrome version 138 or later.
+This is an AI assistant extension for Zoho Desk that leverages your browser's local machine learning model. It currently works on Chrome version 138 or later.
 
 This extension is built with the help of [Deskblocks library](https://deskblocks.mohanvadivel.com/).
 
